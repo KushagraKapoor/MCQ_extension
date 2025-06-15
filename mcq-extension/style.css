@@ -1,0 +1,8 @@
+/* Optional scrollbar styling */
+#output::-webkit-scrollbar {
+  width: 6px;
+}
+#output::-webkit-scrollbar-thumb {
+  background-color: #cbd5e0;
+  border-radius: 6px;
+}
