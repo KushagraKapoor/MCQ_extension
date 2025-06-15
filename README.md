@@ -3,7 +3,7 @@
 
 A Chrome Extension that generates multiple-choice questions (MCQs) from selected or pasted text using a local backend.
 
-![Screenshot of Extension](./Sc.png)
+![Screenshot of Extension](./sc.png)
 
 
 ## Features
