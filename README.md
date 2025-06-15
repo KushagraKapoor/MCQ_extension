@@ -3,16 +3,18 @@
 
 A Chrome Extension that generates multiple-choice questions (MCQs) from selected or pasted text using a local backend.
 
+![Screenshot of Extension](./screenshot.png)
+
 ## Features
 
-- Generate MCQs from selected or pasted text
-- Interactive options with immediate feedback
-- Tailwind-styled popup UI
-- Runs fully on localhost
+- Generate MCQs from selected or pasted text  
+- Interactive options with immediate feedback  
+- Tailwind-styled popup UI  
+- Runs fully on localhost  
 
 ## Requirements
 
-- Node.js
+- Node.js  
 - Ollama (with `phi` model)
 
 ## Setup
@@ -26,7 +28,7 @@ npm install
 npm start
 ````
 
-This starts the backend server at `http://localhost:5000`.
+Starts the backend server at `http://localhost:5000`.
 
 ### 2. Chrome Extension
 
@@ -43,6 +45,7 @@ mcq-extension/
 ├── popup.html
 ├── popup.js
 ├── content.js
+├── screenshot.png
 ```
 
 ## Example Prompt Sent to Backend
@@ -56,6 +59,9 @@ D. Refraction
 Answer: C
 ```
 
+## License
+
+MIT © \[Your Name]
 
 ```
 ```
